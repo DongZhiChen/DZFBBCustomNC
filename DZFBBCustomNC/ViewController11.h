@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ViewController11.h
 //  DZFBBCustomNC
 //
 //  Created by 陈东芝 on 17/4/16.
@@ -7,10 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "DZFBBCustomNC.h"
-#import "ViewController11.h"
-@interface ViewController : UIViewController
 
+@interface ViewController11 : UIViewController
 
 @end
-

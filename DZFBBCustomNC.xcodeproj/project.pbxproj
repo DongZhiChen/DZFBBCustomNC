@@ -15,6 +15,9 @@
 		F2A9AABF1EA398CB00D4E7AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2A9AABD1EA398CB00D4E7AE /* LaunchScreen.storyboard */; };
 		F2A9AACA1EA398CB00D4E7AE /* DZFBBCustomNCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A9AAC91EA398CB00D4E7AE /* DZFBBCustomNCTests.m */; };
 		F2A9AAD51EA398CB00D4E7AE /* DZFBBCustomNCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A9AAD41EA398CB00D4E7AE /* DZFBBCustomNCUITests.m */; };
+		F2A9AAE51EA398F400D4E7AE /* DZFBBCustomNC.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A9AAE41EA398F400D4E7AE /* DZFBBCustomNC.m */; };
+		F2A9AAE71EA3995E00D4E7AE /* back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F2A9AAE61EA3995E00D4E7AE /* back@3x.png */; };
+		F2A9AAF01EA39DC200D4E7AE /* ViewController11.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A9AAEF1EA39DC200D4E7AE /* ViewController11.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,11 @@
 		F2A9AAD01EA398CB00D4E7AE /* DZFBBCustomNCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DZFBBCustomNCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2A9AAD41EA398CB00D4E7AE /* DZFBBCustomNCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DZFBBCustomNCUITests.m; sourceTree = "<group>"; };
 		F2A9AAD61EA398CB00D4E7AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2A9AAE31EA398F400D4E7AE /* DZFBBCustomNC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DZFBBCustomNC.h; path = CustomNC/DZFBBCustomNC.h; sourceTree = "<group>"; };
+		F2A9AAE41EA398F400D4E7AE /* DZFBBCustomNC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DZFBBCustomNC.m; path = CustomNC/DZFBBCustomNC.m; sourceTree = "<group>"; };
+		F2A9AAE61EA3995E00D4E7AE /* back@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back@3x.png"; sourceTree = "<group>"; };
+		F2A9AAEE1EA39DC200D4E7AE /* ViewController11.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController11.h; sourceTree = "<group>"; };
+		F2A9AAEF1EA39DC200D4E7AE /* ViewController11.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController11.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +109,8 @@
 		F2A9AAAE1EA398CB00D4E7AE /* DZFBBCustomNC */ = {
 			isa = PBXGroup;
 			children = (
+				F2A9AAE61EA3995E00D4E7AE /* back@3x.png */,
+				F2A9AAE21EA398D100D4E7AE /* CustomNC */,
 				F2A9AAB21EA398CB00D4E7AE /* AppDelegate.h */,
 				F2A9AAB31EA398CB00D4E7AE /* AppDelegate.m */,
 				F2A9AAB51EA398CB00D4E7AE /* ViewController.h */,
@@ -110,6 +120,8 @@
 				F2A9AABD1EA398CB00D4E7AE /* LaunchScreen.storyboard */,
 				F2A9AAC01EA398CB00D4E7AE /* Info.plist */,
 				F2A9AAAF1EA398CB00D4E7AE /* Supporting Files */,
+				F2A9AAEE1EA39DC200D4E7AE /* ViewController11.h */,
+				F2A9AAEF1EA39DC200D4E7AE /* ViewController11.m */,
 			);
 			path = DZFBBCustomNC;
 			sourceTree = "<group>";
@@ -138,6 +150,15 @@
 				F2A9AAD61EA398CB00D4E7AE /* Info.plist */,
 			);
 			path = DZFBBCustomNCUITests;
+			sourceTree = "<group>";
+		};
+		F2A9AAE21EA398D100D4E7AE /* CustomNC */ = {
+			isa = PBXGroup;
+			children = (
+				F2A9AAE31EA398F400D4E7AE /* DZFBBCustomNC.h */,
+				F2A9AAE41EA398F400D4E7AE /* DZFBBCustomNC.m */,
+			);
+			name = CustomNC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,6 +272,7 @@
 			files = (
 				F2A9AABF1EA398CB00D4E7AE /* LaunchScreen.storyboard in Resources */,
 				F2A9AABC1EA398CB00D4E7AE /* Assets.xcassets in Resources */,
+				F2A9AAE71EA3995E00D4E7AE /* back@3x.png in Resources */,
 				F2A9AABA1EA398CB00D4E7AE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,8 +298,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2A9AAF01EA39DC200D4E7AE /* ViewController11.m in Sources */,
 				F2A9AAB71EA398CB00D4E7AE /* ViewController.m in Sources */,
 				F2A9AAB41EA398CB00D4E7AE /* AppDelegate.m in Sources */,
+				F2A9AAE51EA398F400D4E7AE /* DZFBBCustomNC.m in Sources */,
 				F2A9AAB11EA398CB00D4E7AE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
